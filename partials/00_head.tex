@@ -1,0 +1,25 @@
+% Document
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage{amssymb,amsmath,amsfonts,graphicx,multicol,framed}
+\usepackage[margin=1.0in]{geometry}
+
+% Graphics
+\graphicspath{ {img/} }
+
+% Margins
+\setlength{\textheight}{9in} \setlength{\headheight}{.2in}
+\setlength{\headsep}{0in} \setlength{\topmargin}{0in}
+
+% Spacing
+% TODO - what formatting should be used here?
+% \setlength{\parindent}{4em}
+% \setlength{\parskip}{1em}
+% \renewcommand{\baselinestretch}{2.0}
+
+% Signature Line helper
+\newcommand*{\SignatureAndDate}[1]{%
+    \par\noindent\makebox[2.5in]{\hrulefill} \hfill\makebox[2.0in]{\hrulefill}%
+    \par\noindent\makebox[2.5in][l]{#1}      \hfill\makebox[2.0in][l]{Date}%
+}%

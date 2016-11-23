@@ -1,0 +1,13 @@
+{
+  "name": "latex_stack",
+  "version": "0.0.1",
+  "description": "LaTeX Stack",
+  "dependencies": {
+    "coffee-script": "~1.9.3",
+    "coffeeify": "~1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-run": "^1.7.1"
+  },
+  "author": "Alexander Schwartzberg",
+  "license": "MIT"
+}
